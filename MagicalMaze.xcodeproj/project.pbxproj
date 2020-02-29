@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA97E9AE22B43046003637A7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA97E9AD22B43046003637A7 /* Actions.sks */; };
+		CABE808622CFC8F5007F0359 /* Sonido Portal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CABE808522CFC8F5007F0359 /* Sonido Portal.mp3 */; };
+		CAF83EBC22B6881000CD4F90 /* Musica de Fondo Laberinto 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CAF83EBB22B6881000CD4F90 /* Musica de Fondo Laberinto 1.mp3 */; };
+		CAF9082222B6280D00E32F5C /* Sonido del Principio Real.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CAF9082122B6280D00E32F5C /* Sonido del Principio Real.mp3 */; };
+		CAF94CE022E107820092834A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAD2CC6217F612E00D53238 /* AppDelegate.swift */; };
+		ED0401D2223807A10095D7C6 /* BordeDelMapa.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED0401D1223807A10095D7C6 /* BordeDelMapa.sks */; };
+		ED09C9682215C26F0021B248 /* MagicalMaze.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = ED09C9672215C26F0021B248 /* MagicalMaze.MP4 */; };
+		ED13D6F722A56574007B55BD /* PantallaDeCarga.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = ED13D6F622A56574007B55BD /* PantallaDeCarga.MP4 */; };
+		ED371D9D2180B9E400588610 /* PantallaDeInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED371D9C2180B9E400588610 /* PantallaDeInicio.swift */; };
+		ED371DA42180BBA200588610 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED371DA32180BBA200588610 /* Menu.swift */; };
+		ED45FFDD22B7D6FB00911858 /* Musica Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED45FFDC22B7D6FA00911858 /* Musica Menu.mp3 */; };
+		ED58FF9E229C311700CF232B /* laberintoUno.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED58FF9D229C311700CF232B /* laberintoUno.sks */; };
+		ED88A04A2209E1B600B4E9E9 /* TipoAgua2.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED88A0492209E1B600B4E9E9 /* TipoAgua2.sks */; };
+		ED88A04C2209E1CB00B4E9E9 /* TipoAgua3.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED88A04B2209E1CB00B4E9E9 /* TipoAgua3.sks */; };
+		ED88A04E2209E1D800B4E9E9 /* TipoAgua4.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED88A04D2209E1D800B4E9E9 /* TipoAgua4.sks */; };
+		ED88A0502209E1E500B4E9E9 /* TipoAgua5.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED88A04F2209E1E500B4E9E9 /* TipoAgua5.sks */; };
+		ED88A0522209E1EF00B4E9E9 /* TipoAgua6.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED88A0512209E1EF00B4E9E9 /* TipoAgua6.sks */; };
+		ED88A0542209E1F700B4E9E9 /* TipoAgua7.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED88A0532209E1F700B4E9E9 /* TipoAgua7.sks */; };
+		ED88A0562209E20B00B4E9E9 /* TipoAgua8.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED88A0552209E20B00B4E9E9 /* TipoAgua8.sks */; };
+		ED88A0582209E21300B4E9E9 /* TipoAgua9.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED88A0572209E21300B4E9E9 /* TipoAgua9.sks */; };
+		EDAD2CCD217F612E00D53238 /* laberintoUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAD2CCC217F612E00D53238 /* laberintoUno.swift */; };
+		EDAD2CCF217F612E00D53238 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAD2CCE217F612E00D53238 /* GameViewController.swift */; };
+		EDAD2CD2217F612E00D53238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAD2CD0217F612E00D53238 /* Main.storyboard */; };
+		EDAD2CD4217F613000D53238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAD2CD3217F613000D53238 /* Assets.xcassets */; };
+		EDAD2CD7217F613000D53238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAD2CD5217F613000D53238 /* LaunchScreen.storyboard */; };
+		EDAD2CE2217F613000D53238 /* MagicalMazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAD2CE1217F613000D53238 /* MagicalMazeTests.swift */; };
+		EDAD2CED217F613000D53238 /* MagicalMazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAD2CEC217F613000D53238 /* MagicalMazeUITests.swift */; };
+		EDAD2CFC217F64F200D53238 /* Tiles Laberinto1.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDAD2CFB217F64F200D53238 /* Tiles Laberinto1.sks */; };
+		EDC3D21D21E64D1100AF2209 /* TipoAgua1.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDC3D21C21E64D1100AF2209 /* TipoAgua1.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDAD2CDE217F613000D53238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAD2CBB217F612E00D53238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAD2CC2217F612E00D53238;
+			remoteInfo = MagicalMaze;
+		};
+		EDAD2CE9217F613000D53238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAD2CBB217F612E00D53238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAD2CC2217F612E00D53238;
+			remoteInfo = MagicalMaze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA97E9AD22B43046003637A7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CABE808522CFC8F5007F0359 /* Sonido Portal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sonido Portal.mp3"; sourceTree = "<group>"; };
+		CAF83EBB22B6881000CD4F90 /* Musica de Fondo Laberinto 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Musica de Fondo Laberinto 1.mp3"; sourceTree = "<group>"; };
+		CAF9082122B6280D00E32F5C /* Sonido del Principio Real.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sonido del Principio Real.mp3"; sourceTree = "<group>"; };
+		ED0401D1223807A10095D7C6 /* BordeDelMapa.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BordeDelMapa.sks; sourceTree = "<group>"; };
+		ED09C9672215C26F0021B248 /* MagicalMaze.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MagicalMaze.MP4; sourceTree = "<group>"; };
+		ED13D6F622A56574007B55BD /* PantallaDeCarga.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PantallaDeCarga.MP4; sourceTree = "<group>"; };
+		ED371D9C2180B9E400588610 /* PantallaDeInicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaDeInicio.swift; sourceTree = "<group>"; };
+		ED371DA32180BBA200588610 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		ED45FFDC22B7D6FA00911858 /* Musica Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Musica Menu.mp3"; sourceTree = "<group>"; };
+		ED58FF9D229C311700CF232B /* laberintoUno.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = laberintoUno.sks; sourceTree = "<group>"; };
+		ED88A0492209E1B600B4E9E9 /* TipoAgua2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TipoAgua2.sks; sourceTree = "<group>"; };
+		ED88A04B2209E1CB00B4E9E9 /* TipoAgua3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TipoAgua3.sks; sourceTree = "<group>"; };
+		ED88A04D2209E1D800B4E9E9 /* TipoAgua4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TipoAgua4.sks; sourceTree = "<group>"; };
+		ED88A04F2209E1E500B4E9E9 /* TipoAgua5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TipoAgua5.sks; sourceTree = "<group>"; };
+		ED88A0512209E1EF00B4E9E9 /* TipoAgua6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TipoAgua6.sks; sourceTree = "<group>"; };
+		ED88A0532209E1F700B4E9E9 /* TipoAgua7.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TipoAgua7.sks; sourceTree = "<group>"; };
+		ED88A0552209E20B00B4E9E9 /* TipoAgua8.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TipoAgua8.sks; sourceTree = "<group>"; };
+		ED88A0572209E21300B4E9E9 /* TipoAgua9.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TipoAgua9.sks; sourceTree = "<group>"; };
+		EDAD2CC3217F612E00D53238 /* MagicalMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAD2CC6217F612E00D53238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDAD2CCC217F612E00D53238 /* laberintoUno.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = laberintoUno.swift; sourceTree = "<group>"; tabWidth = 4; };
+		EDAD2CCE217F612E00D53238 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EDAD2CD1217F612E00D53238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDAD2CD3217F613000D53238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDAD2CD6217F613000D53238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDAD2CD8217F613000D53238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAD2CDD217F613000D53238 /* MagicalMazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalMazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAD2CE1217F613000D53238 /* MagicalMazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalMazeTests.swift; sourceTree = "<group>"; };
+		EDAD2CE3217F613000D53238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAD2CE8217F613000D53238 /* MagicalMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAD2CEC217F613000D53238 /* MagicalMazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalMazeUITests.swift; sourceTree = "<group>"; };
+		EDAD2CEE217F613000D53238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAD2CFB217F64F200D53238 /* Tiles Laberinto1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Tiles Laberinto1.sks"; sourceTree = "<group>"; };
+		EDC3D21C21E64D1100AF2209 /* TipoAgua1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TipoAgua1.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDAD2CC0217F612E00D53238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAD2CDA217F613000D53238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAD2CE5217F613000D53238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED371D992180B98C00588610 /* Pantalla De Inicio  */ = {
+			isa = PBXGroup;
+			children = (
+				ED371D9C2180B9E400588610 /* PantallaDeInicio.swift */,
+			);
+			path = "Pantalla De Inicio ";
+			sourceTree = "<group>";
+		};
+		ED371DA02180BB7D00588610 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				ED371DA32180BBA200588610 /* Menu.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		ED88A0592209E21F00B4E9E9 /* TiposDeAgua Y BordesDelMapa */ = {
+			isa = PBXGroup;
+			children = (
+				EDC3D21C21E64D1100AF2209 /* TipoAgua1.sks */,
+				ED88A0492209E1B600B4E9E9 /* TipoAgua2.sks */,
+				ED88A04B2209E1CB00B4E9E9 /* TipoAgua3.sks */,
+				ED88A04D2209E1D800B4E9E9 /* TipoAgua4.sks */,
+				ED88A04F2209E1E500B4E9E9 /* TipoAgua5.sks */,
+				ED88A0512209E1EF00B4E9E9 /* TipoAgua6.sks */,
+				ED88A0532209E1F700B4E9E9 /* TipoAgua7.sks */,
+				ED88A0552209E20B00B4E9E9 /* TipoAgua8.sks */,
+				ED88A0572209E21300B4E9E9 /* TipoAgua9.sks */,
+				ED0401D1223807A10095D7C6 /* BordeDelMapa.sks */,
+			);
+			path = "TiposDeAgua Y BordesDelMapa";
+			sourceTree = "<group>";
+		};
+		EDAD2CBA217F612E00D53238 = {
+			isa = PBXGroup;
+			children = (
+				ED13D6F622A56574007B55BD /* PantallaDeCarga.MP4 */,
+				ED09C9672215C26F0021B248 /* MagicalMaze.MP4 */,
+				ED45FFDC22B7D6FA00911858 /* Musica Menu.mp3 */,
+				CAF83EBB22B6881000CD4F90 /* Musica de Fondo Laberinto 1.mp3 */,
+				CAF9082122B6280D00E32F5C /* Sonido del Principio Real.mp3 */,
+				CABE808522CFC8F5007F0359 /* Sonido Portal.mp3 */,
+				EDAD2CC5217F612E00D53238 /* MagicalMaze */,
+				EDAD2CE0217F613000D53238 /* MagicalMazeTests */,
+				EDAD2CEB217F613000D53238 /* MagicalMazeUITests */,
+				EDAD2CC4217F612E00D53238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDAD2CC4217F612E00D53238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDAD2CC3217F612E00D53238 /* MagicalMaze.app */,
+				EDAD2CDD217F613000D53238 /* MagicalMazeTests.xctest */,
+				EDAD2CE8217F613000D53238 /* MagicalMazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDAD2CC5217F612E00D53238 /* MagicalMaze */ = {
+			isa = PBXGroup;
+			children = (
+				EDAD2CCE217F612E00D53238 /* GameViewController.swift */,
+				ED371D992180B98C00588610 /* Pantalla De Inicio  */,
+				ED371DA02180BB7D00588610 /* Menu */,
+				EDAD2CFA217F613F00D53238 /* Laberinto1 */,
+				EDAD2CC6217F612E00D53238 /* AppDelegate.swift */,
+				CA97E9AD22B43046003637A7 /* Actions.sks */,
+				EDAD2CD0217F612E00D53238 /* Main.storyboard */,
+				EDAD2CD5217F613000D53238 /* LaunchScreen.storyboard */,
+				EDAD2CD8217F613000D53238 /* Info.plist */,
+				EDAD2CD3217F613000D53238 /* Assets.xcassets */,
+			);
+			path = MagicalMaze;
+			sourceTree = "<group>";
+		};
+		EDAD2CE0217F613000D53238 /* MagicalMazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAD2CE1217F613000D53238 /* MagicalMazeTests.swift */,
+				EDAD2CE3217F613000D53238 /* Info.plist */,
+			);
+			path = MagicalMazeTests;
+			sourceTree = "<group>";
+		};
+		EDAD2CEB217F613000D53238 /* MagicalMazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAD2CEC217F613000D53238 /* MagicalMazeUITests.swift */,
+				EDAD2CEE217F613000D53238 /* Info.plist */,
+			);
+			path = MagicalMazeUITests;
+			sourceTree = "<group>";
+		};
+		EDAD2CFA217F613F00D53238 /* Laberinto1 */ = {
+			isa = PBXGroup;
+			children = (
+				ED58FF9D229C311700CF232B /* laberintoUno.sks */,
+				EDAD2CCC217F612E00D53238 /* laberintoUno.swift */,
+				EDAD2CFB217F64F200D53238 /* Tiles Laberinto1.sks */,
+				ED88A0592209E21F00B4E9E9 /* TiposDeAgua Y BordesDelMapa */,
+			);
+			path = Laberinto1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDAD2CC2217F612E00D53238 /* MagicalMaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAD2CF1217F613000D53238 /* Build configuration list for PBXNativeTarget "MagicalMaze" */;
+			buildPhases = (
+				EDAD2CBF217F612E00D53238 /* Sources */,
+				EDAD2CC0217F612E00D53238 /* Frameworks */,
+				EDAD2CC1217F612E00D53238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicalMaze;
+			productName = MagicalMaze;
+			productReference = EDAD2CC3217F612E00D53238 /* MagicalMaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDAD2CDC217F613000D53238 /* MagicalMazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAD2CF4217F613000D53238 /* Build configuration list for PBXNativeTarget "MagicalMazeTests" */;
+			buildPhases = (
+				EDAD2CD9217F613000D53238 /* Sources */,
+				EDAD2CDA217F613000D53238 /* Frameworks */,
+				EDAD2CDB217F613000D53238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAD2CDF217F613000D53238 /* PBXTargetDependency */,
+			);
+			name = MagicalMazeTests;
+			productName = MagicalMazeTests;
+			productReference = EDAD2CDD217F613000D53238 /* MagicalMazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDAD2CE7217F613000D53238 /* MagicalMazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAD2CF7217F613000D53238 /* Build configuration list for PBXNativeTarget "MagicalMazeUITests" */;
+			buildPhases = (
+				EDAD2CE4217F613000D53238 /* Sources */,
+				EDAD2CE5217F613000D53238 /* Frameworks */,
+				EDAD2CE6217F613000D53238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAD2CEA217F613000D53238 /* PBXTargetDependency */,
+			);
+			name = MagicalMazeUITests;
+			productName = MagicalMazeUITests;
+			productReference = EDAD2CE8217F613000D53238 /* MagicalMazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDAD2CBB217F612E00D53238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = tallerapps;
+				TargetAttributes = {
+					EDAD2CC2217F612E00D53238 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EDAD2CDC217F613000D53238 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EDAD2CC2217F612E00D53238;
+					};
+					EDAD2CE7217F613000D53238 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EDAD2CC2217F612E00D53238;
+					};
+				};
+			};
+			buildConfigurationList = EDAD2CBE217F612E00D53238 /* Build configuration list for PBXProject "MagicalMaze" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDAD2CBA217F612E00D53238;
+			productRefGroup = EDAD2CC4217F612E00D53238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDAD2CC2217F612E00D53238 /* MagicalMaze */,
+				EDAD2CDC217F613000D53238 /* MagicalMazeTests */,
+				EDAD2CE7217F613000D53238 /* MagicalMazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDAD2CC1217F612E00D53238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED09C9682215C26F0021B248 /* MagicalMaze.MP4 in Resources */,
+				ED88A0522209E1EF00B4E9E9 /* TipoAgua6.sks in Resources */,
+				ED88A04A2209E1B600B4E9E9 /* TipoAgua2.sks in Resources */,
+				CAF83EBC22B6881000CD4F90 /* Musica de Fondo Laberinto 1.mp3 in Resources */,
+				ED58FF9E229C311700CF232B /* laberintoUno.sks in Resources */,
+				EDAD2CD2217F612E00D53238 /* Main.storyboard in Resources */,
+				ED13D6F722A56574007B55BD /* PantallaDeCarga.MP4 in Resources */,
+				ED88A0582209E21300B4E9E9 /* TipoAgua9.sks in Resources */,
+				ED0401D2223807A10095D7C6 /* BordeDelMapa.sks in Resources */,
+				CAF9082222B6280D00E32F5C /* Sonido del Principio Real.mp3 in Resources */,
+				EDAD2CFC217F64F200D53238 /* Tiles Laberinto1.sks in Resources */,
+				CABE808622CFC8F5007F0359 /* Sonido Portal.mp3 in Resources */,
+				ED88A04C2209E1CB00B4E9E9 /* TipoAgua3.sks in Resources */,
+				EDC3D21D21E64D1100AF2209 /* TipoAgua1.sks in Resources */,
+				ED45FFDD22B7D6FB00911858 /* Musica Menu.mp3 in Resources */,
+				ED88A0542209E1F700B4E9E9 /* TipoAgua7.sks in Resources */,
+				EDAD2CD4217F613000D53238 /* Assets.xcassets in Resources */,
+				EDAD2CD7217F613000D53238 /* LaunchScreen.storyboard in Resources */,
+				CA97E9AE22B43046003637A7 /* Actions.sks in Resources */,
+				ED88A0562209E20B00B4E9E9 /* TipoAgua8.sks in Resources */,
+				ED88A04E2209E1D800B4E9E9 /* TipoAgua4.sks in Resources */,
+				ED88A0502209E1E500B4E9E9 /* TipoAgua5.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAD2CDB217F613000D53238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAD2CE6217F613000D53238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDAD2CBF217F612E00D53238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAD2CCD217F612E00D53238 /* laberintoUno.swift in Sources */,
+				EDAD2CCF217F612E00D53238 /* GameViewController.swift in Sources */,
+				ED371D9D2180B9E400588610 /* PantallaDeInicio.swift in Sources */,
+				CAF94CE022E107820092834A /* AppDelegate.swift in Sources */,
+				ED371DA42180BBA200588610 /* Menu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAD2CD9217F613000D53238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAD2CE2217F613000D53238 /* MagicalMazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAD2CE4217F613000D53238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAD2CED217F613000D53238 /* MagicalMazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDAD2CDF217F613000D53238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAD2CC2217F612E00D53238 /* MagicalMaze */;
+			targetProxy = EDAD2CDE217F613000D53238 /* PBXContainerItemProxy */;
+		};
+		EDAD2CEA217F613000D53238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAD2CC2217F612E00D53238 /* MagicalMaze */;
+			targetProxy = EDAD2CE9217F613000D53238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDAD2CD0217F612E00D53238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAD2CD1217F612E00D53238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDAD2CD5217F613000D53238 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAD2CD6217F613000D53238 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDAD2CEF217F613000D53238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDAD2CF0217F613000D53238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDAD2CF2217F613000D53238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82S8CAK69;
+				INFOPLIST_FILE = MagicalMaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colintlev.muqi.MagicalMazedos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDAD2CF3217F613000D53238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82S8CAK69;
+				INFOPLIST_FILE = MagicalMaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colintlev.muqi.MagicalMazedos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDAD2CF5217F613000D53238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82S8CAK69;
+				INFOPLIST_FILE = MagicalMazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colintlev.Practica.MagicalMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicalMaze.app/MagicalMaze";
+			};
+			name = Debug;
+		};
+		EDAD2CF6217F613000D53238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82S8CAK69;
+				INFOPLIST_FILE = MagicalMazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colintlev.Practica.MagicalMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicalMaze.app/MagicalMaze";
+			};
+			name = Release;
+		};
+		EDAD2CF8217F613000D53238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82S8CAK69;
+				INFOPLIST_FILE = MagicalMazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colintlev.Practica.MagicalMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicalMaze;
+			};
+			name = Debug;
+		};
+		EDAD2CF9217F613000D53238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82S8CAK69;
+				INFOPLIST_FILE = MagicalMazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colintlev.Practica.MagicalMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicalMaze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDAD2CBE217F612E00D53238 /* Build configuration list for PBXProject "MagicalMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAD2CEF217F613000D53238 /* Debug */,
+				EDAD2CF0217F613000D53238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAD2CF1217F613000D53238 /* Build configuration list for PBXNativeTarget "MagicalMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAD2CF2217F613000D53238 /* Debug */,
+				EDAD2CF3217F613000D53238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAD2CF4217F613000D53238 /* Build configuration list for PBXNativeTarget "MagicalMazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAD2CF5217F613000D53238 /* Debug */,
+				EDAD2CF6217F613000D53238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAD2CF7217F613000D53238 /* Build configuration list for PBXNativeTarget "MagicalMazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAD2CF8217F613000D53238 /* Debug */,
+				EDAD2CF9217F613000D53238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDAD2CBB217F612E00D53238 /* Project object */;
+}
